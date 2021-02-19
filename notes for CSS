@@ -1,0 +1,2 @@
+object-fit: contain basically keeps its aspect ratio so when things change it will be contained within
+z-index =-1 basically puts it all the way behind. It will be behind everything
