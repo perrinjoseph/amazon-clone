@@ -1,2 +1,47 @@
 object-fit: contain basically keeps its aspect ratio so when things change it will be contained within
 z-index =-1 basically puts it all the way behind. It will be behind everything
+
+React Router helps you have multiple pages in React. this can be used to change the URL.
+to use react router you have to download npm install react-router-dom
+
+use npm i react-currency-format -force 
+this will help you build currency stuff we dont have to code anything. 
+
+The React context api it isnt the same as Redux but the same idea is what enables our components to communicate with a data layer. 
+so we created a data layer that stores the state and then 
+in each component we can now access this state
+
+What is the reducer?
+the reducer determines how exactly we are going to dispatch an action and store the data into the data layer
+
+TO INCLUDE FIREBASE INTO PROJECT FIRST GO INTO PROJECT 
+do "npm install -g firebase-tools"
+do "npm install firebase" to download install firebase into our project.
+
+in the firebase.js file  import the firebase from "firebase"
+then first set a variable called firebaseApp and set it to firebase.initializeApp(and pass in the the firebase config variable )
+this process above will go ahead and set up firebase for you
+
+next we need to config the database
+
+What is useHistory from react-router-dom
+from react and it is used to force push or basically navigate the page after some 
+activity is a success!
+
+now if you need to login a user used the auth.whateverwhatever in an async function
+
+once we have signin we need to keep track of who signed in app.js we will create 
+a listener that will listen for that we use somethin gcalled useEffect() it takes no 
+parameters and it can be used to refire something when a user changes or if the state of somethign changes
+the app component only runs once if you dont pass in anything in the array. 
+
+Stripe functions 
+npm install @stripe/stripe-js 
+
+
+axios allows you yo work with post requests and stuff
+
+
+
+
+
